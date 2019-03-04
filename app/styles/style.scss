@@ -1,0 +1,167 @@
+@import "../../node_modules/normalize.scss/normalize";
+
+// Common styles
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.common_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "Tahoma-Bold";
+    font-size: 21px;
+}
+
+h2 {
+    font-family: "Tahoma-Bold";
+    font-size: 18px;
+}
+
+// Header section
+header {
+    margin-bottom: 15px;
+}
+
+.logo {
+    margin: 19px 0 0 2px;
+}
+
+.nav {
+    margin: 12px 0 0 0;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    margin-left: 27px;
+}
+
+.nav a {
+    font-family: "Tahoma-Bold";
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+// Hero section
+.hero_block-bgc {
+    background-color: #f0f0f0;
+    height: 270px;
+}
+
+.hero_img {
+    margin: 13px 0 0 27px;
+}
+
+.hero_text h1 {
+    margin: 12px 0 -5px 0;
+}
+
+.hero_text {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.hero_btn {
+    background: linear-gradient(to top, #b4362e 0%, #c73b32 36%, #d94137 100%);
+    color: #fff;
+    width: 115px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-family: Tahoma;
+    font-size: 13px;
+    margin-left: -2px;
+}
+
+// Main section
+.main_articles {
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+.main_articles h2 {
+    margin: 19px 0 -11px 0px;
+}
+
+// Main section icons
+.main_icons {
+    display: flex;
+    justify-content: start;
+    margin: 28px 0 40px 0;
+}
+
+.main_icons-block {
+    display: flex;
+}
+
+.main_icons-block img {
+    display: flex;
+}
+
+.main_icons-block span {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.main_icons-firstBlock {
+    padding: 2px 0px 0 12px;
+    height: 40px;
+}
+
+.main_icons-firstBlock span {
+    max-width: 100px;
+    padding: 2px 0 0 12px;
+}
+
+.main_icons-secondBlock {
+    margin-left: 51px;
+    height: 42px;
+}
+
+.main_icons-secondBlock span {
+    max-width: 120px;
+    margin: 5px 0 0 18px;
+}
+
+.main_icons-thirdBlock {
+    margin-left: 75px;
+}
+
+.main_icons-thirdBlock span {
+    margin: 5px 0 0 18px;
+}
+
+.main_icons-fourthBlock {
+    height: 37px;
+    margin: 2px 0 0 77px;
+}
+
+.main_icons-fourthBlock span {
+    margin: 3px 0 0 18px;
+}
+
+.main_articles:last-child {
+    margin-top: -5px;
+}

@@ -4,11 +4,20 @@
   "description": "test task for premmerce",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "author": "lqbdigital@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp.spritesmith": "^6.9.0",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "normalize.scss": "^0.1.0"
   }
 }
